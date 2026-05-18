@@ -1,0 +1,39 @@
+{
+    "name": "artisanpack-ui/security-full",
+    "description": "Meta-package that installs the full ArtisanPack UI security suite: core sanitization/CSP, RBAC, authentication, advanced auth (WebAuthn/SSO/social), secure uploads, security analytics, and GDPR/CCPA/LGPD compliance.",
+    "type": "metapackage",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "security",
+        "rbac",
+        "authentication",
+        "2fa",
+        "webauthn",
+        "sso",
+        "csp",
+        "xss",
+        "malware-scanning",
+        "siem",
+        "gdpr",
+        "compliance",
+        "meta-package"
+    ],
+    "authors": [
+        {
+            "name": "Jacob Martella",
+            "email": "support@artisanpackui.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "artisanpack-ui/security": "^2.0",
+        "artisanpack-ui/rbac": "^1.0",
+        "artisanpack-ui/security-auth": "^1.0",
+        "artisanpack-ui/security-advanced-auth": "^1.0",
+        "artisanpack-ui/secure-uploads": "^1.0",
+        "artisanpack-ui/security-analytics": "^1.0",
+        "artisanpack-ui/compliance": "^1.0"
+    }
+}
